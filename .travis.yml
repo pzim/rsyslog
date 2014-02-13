@@ -5,11 +5,6 @@ script: "rake spec"
 branches:
   only:
     - master
-env:
-  - PUPPET_VERSION=3.1.0
-  - PUPPET_VERSION=3.2.0
-  - PUPPET_VERSION=3.2.1
-  - PUPPET_VERSION=3.2.2
 notifications:
   email: true
 gemfile: Gemfile
