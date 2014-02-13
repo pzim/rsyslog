@@ -2,7 +2,7 @@
 $ModLoad imfile
 
 <% @config_hash.each_pair do | key, value | %>
-# [<%= key %>]
+# [<%= @key %>]
 $InputFileName <%= value['InputFileName'] %>
 $InputFileTag <%= value['InputFileTag'] %>
 $InputFileStateFile <%= value['InputFileStateFile'] %>
