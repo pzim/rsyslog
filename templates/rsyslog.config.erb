@@ -1,0 +1,12 @@
+# forward logs to <%=scope.lookupvar('rsyslog::server')%>
+$ModLoad imfile
+
+<% @config_hash.each_pair do | key, value | %>
+# [<%= key %>]
+$InputFileName <%= value['InputFileName'] %>
+$InputFileTag <%= value['InputFileTag'] %>
+$InputFileStateFile <%= value['InputFileStateFile'] %>
+$InputFileSeverity <%= value['InputFileSeverity'] %>
+$InputFileFacility <%= value['InputFileFacility'] %>
+$InputRunFileMonitor
+<% end %>
