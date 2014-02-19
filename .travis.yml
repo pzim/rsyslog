@@ -1,13 +1,10 @@
+script: ./script/cibuild
 before_install:
   - gem update --system 2.1.11
   - ./script/bootstrap
 rvm: 1.9.3
-script: "rake spec"
 env:
-  - PUPPET_VERSION=3.0.2
-  - PUPPET_VERSION=3.2.1
   - PUPPET_VERSION=3.2.2
 notifications:
   email:
     - pzimmerman.home@gmail.com
-gemfile: Gemfile
