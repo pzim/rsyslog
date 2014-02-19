@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+set -e
+
+script/bootstrap
+
+bundle exec rake spec
