@@ -1,5 +1,5 @@
 name         'pzimmerman-github-rsyslog'
-version 	 'v1.0'
+version 	 '1.0.0'
 summary      'Install and configure rsyslog.'
 description  'Install and configure rsyslog.'
 author       'Phil Zimmerman - pzimmerman.home@gmail.com'
