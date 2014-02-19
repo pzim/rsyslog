@@ -2,6 +2,6 @@
 
 set -e
 
-script/bootstrap
+[ -z "${PUPPET_VERSION}" ] && script/bootstrap
 
 bundle exec rake spec
