@@ -1,5 +1,6 @@
 rsyslog
 =======
+[![Build Status](https://secure.travis-ci.org/pzimmerman-github/rsyslog.png)](http://travis-ci.org/pzimmerman-github/rsyslog)
 
 Module to install and configure rsyslog
 
