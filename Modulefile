@@ -1,4 +1,4 @@
-name         'rsyslog'
+name         'pzimmerman-github-rsyslog'
 version 	 'v1.0'
 summary      'Install and configure rsyslog.'
 description  'Install and configure rsyslog.'
